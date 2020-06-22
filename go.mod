@@ -4,6 +4,7 @@ go 1.13
 
 require (
 	github.com/astaxie/beego v1.12.1
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-ini/ini v1.57.0
 	github.com/go-playground/validator/v10 v10.3.0 // indirect
@@ -19,6 +20,7 @@ require (
 )
 
 replace (
+	github.com/jinsoft/gin-blog/middleware/jwt => C:\ainiok\go\gin-blog\middleware\jwt
 	github.com/jinsoft/gin-blog/pkg/e => C:\ainiok\go\gin-blog\pkg\e
 	github.com/jinsoft/gin-blog/pkg/setting => C:\ainiok\go\gin-blog\pkg\setting
 	github.com/jinsoft/gin-blog/pkg/util => C:\ainiok\go\gin-blog\pkg\util
